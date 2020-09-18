@@ -4,7 +4,7 @@ CyberPower pwrstat to prometheus exporter.
 
 Run via docker with:
 
-```
+```sh
 docker run -d \
     --name pwrstat-exporter \
     --privileged \
@@ -13,7 +13,8 @@ docker run -d \
 ```
 
 Run via docker compose with:
-```
+
+```yml
 version: "3.8"
 
 services:
